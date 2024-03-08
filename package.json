@@ -1,12 +1,26 @@
 {
+  "name": "starter-example",
+  "version": "1.0.0",
   "private": true,
+  "description": "This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.",
+  "homepage": "https://github.com/objectMaker/next-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/objectMaker/next-dashboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objectMaker/next-dashboard.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "next.config.js",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -38,19 +52,5 @@
   },
   "engines": {
     "node": ">=18.17.0"
-  },
-  "name": "starter-example",
-  "description": "This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.",
-  "version": "1.0.0",
-  "main": "next.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/objectMaker/next-dashboard.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/objectMaker/next-dashboard/issues"
-  },
-  "homepage": "https://github.com/objectMaker/next-dashboard#readme"
+  }
 }
